@@ -1,0 +1,27 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.5.1
+Flutter extension: 3.5.1 (not activated)
+VS Code: 1.39.2
+Platform: win
+Workspace type: Flutter
+Multi-root?: false
+Dart SDK:
+    Loc: C:\src\flutter\bin\cache\dart-sdk
+    Ver: 2.5.0-edge.1ef83b86ae637ffe7359173804cbc6d3fa25e6db
+Flutter SDK:
+    Loc: C:\src\flutter
+    Ver: 1.9.1+hotfix.4
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Wed Oct 16 2019 [21:27:45 GMT+0530 (India Standard Time)] Log file started
+[9:27:45 PM] [FlutterDaemon] [Info] Spawning C:\src\flutter\bin\flutter.bat with args ["daemon"]
+[9:27:45 PM] [FlutterDaemon] [Info] ..  in C:\src\flutter
+[9:27:45 PM] [FlutterDaemon] [Info]     PID: 8704
+[9:27:45 PM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[9:27:50 PM] [FlutterDaemon] [Info] <== Starting device daemon...
+[9:27:50 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.5.3","pid":8904}}]
+[9:27:50 PM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[9:27:52 PM] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"Pixel_3_XL_API_27","name":"Pixel_3_XL_API_27","category":"mobile","platformType":"android"}]}]
+[9:27:52 PM] [FlutterDaemon] [Info] <== [{"id":"2"}]

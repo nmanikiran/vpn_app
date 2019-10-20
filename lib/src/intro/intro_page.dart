@@ -14,7 +14,6 @@ class _IntroPageState extends State<IntroPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
       body: Column(
         children: <Widget>[
           Expanded(
@@ -24,13 +23,13 @@ class _IntroPageState extends State<IntroPage> {
             padding: const EdgeInsets.symmetric(vertical: 60.0),
             child: MaterialButton(
               minWidth: 180.0,
-              padding: EdgeInsets.symmetric(vertical: 15.0),
+              padding: const EdgeInsets.symmetric(vertical: 15.0),
               shape: new RoundedRectangleBorder(
                   borderRadius: new BorderRadius.circular(30.0)),
               color: Colors.blueAccent,
               textColor: Colors.white,
               onPressed: () => {
-                Navigator.push(
+                Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(
                         builder: (BuildContext context) => VpnPage()))

@@ -33,9 +33,7 @@ class VpnBottomSheet extends StatelessWidget {
             child: ListView.builder(
               itemCount: servers.length,
               itemBuilder: (BuildContext context, int index) => ListTile(
-                onTap: () {
-                  onServerTap(index);
-                },
+                onTap: () => onServerTap(index),
                 dense: true,
                 title: Text(
                   servers[index]['name'],

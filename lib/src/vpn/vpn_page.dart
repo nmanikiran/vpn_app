@@ -27,11 +27,7 @@ class _VpnPageState extends State<VpnPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.white,
         appBar: AppBar(
-          automaticallyImplyLeading: false,
-          elevation: 0.0,
-          backgroundColor: Colors.white,
           title: Text(
             'VPN',
             style: TextStyle(color: Colors.black),

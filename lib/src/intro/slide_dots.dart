@@ -8,7 +8,7 @@ class SlideDots extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedContainer(
       duration: Duration(milliseconds: 150),
-      margin: const EdgeInsets.symmetric(horizontal: 8),
+      margin: const EdgeInsets.symmetric(horizontal: 6),
       height: isActive ? 12 : 10,
       width: isActive ? 12 : 10,
       decoration: BoxDecoration(

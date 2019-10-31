@@ -47,7 +47,7 @@ class VpnBottomSheet extends StatelessWidget {
                   selectedIndex == index
                       ? Icons.check_circle
                       : Icons.panorama_fish_eye,
-                  color: selectedIndex == index ? Colors.blue : Colors.grey,
+                  color: selectedIndex == index ? Theme.of(context).primaryColor : Colors.grey,
                 ),
               ),
             ),

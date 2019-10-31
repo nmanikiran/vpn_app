@@ -1,4 +1,4 @@
-import 'package:vpn_app/src/Assets.dart';
+import 'package:vpn_app/src/app_assets.dart';
 
 class Constants {
   static final List<Map<String, dynamic>> slides = [
@@ -6,30 +6,30 @@ class Constants {
       "title": "Secured, forever.",
       "description":
           "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis.",
-      "img": Assets.welcome,
+      "img": AppAssets.welcome,
     },
     {
       "title": "Encrypted, forever.",
       "description":
           "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis.",
-      "img": Assets.encrypted
+      "img": AppAssets.encrypted
     },
     {
       "title": "Privacy, forever.",
       "description":
           "Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis.",
-      "img": Assets.privacy
+      "img": AppAssets.privacy
     }
   ];
 
   static final List<Map<String, dynamic>> servers = [
-    {"name": "Automatic", "icon": Assets.automatic},
-    {"name": "New York, NY", "icon": Assets.us},
-    {"name": "London", "icon": Assets.uk},
-    {"name": "Moscow", "icon": Assets.russia},
-    {"name": "Sweden", "icon": Assets.sweden},
-    {"name": "Melbourne", "icon": Assets.australia},
-    {"name": "New Delhi", "icon": Assets.india},
-    {"name": "Singapore", "icon": Assets.singapore}
+    {"name": "Automatic", "icon": AppAssets.automatic},
+    {"name": "New York, NY", "icon": AppAssets.us},
+    {"name": "London", "icon": AppAssets.uk},
+    {"name": "Moscow", "icon": AppAssets.russia},
+    {"name": "Sweden", "icon": AppAssets.sweden},
+    {"name": "Melbourne", "icon": AppAssets.australia},
+    {"name": "New Delhi", "icon": AppAssets.india},
+    {"name": "Singapore", "icon": AppAssets.singapore}
   ];
 }

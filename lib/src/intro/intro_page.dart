@@ -26,7 +26,7 @@ class _IntroPageState extends State<IntroPage> {
               padding: const EdgeInsets.symmetric(vertical: 15.0),
               shape: new RoundedRectangleBorder(
                   borderRadius: new BorderRadius.circular(30.0)),
-              color: Colors.blueAccent,
+              color: Theme.of(context).primaryColor,
               textColor: Colors.white,
               onPressed: () => {
                 Navigator.pushReplacement(

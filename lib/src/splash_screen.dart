@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:vpn_app/src/Assets.dart';
+import 'package:vpn_app/src/app_assets.dart';
 import 'package:vpn_app/src/intro/intro_page.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -24,7 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return Container(
       decoration: BoxDecoration(
         image: DecorationImage(
-            fit: BoxFit.cover, image: AssetImage(Assets.splash)),
+            fit: BoxFit.cover, image: AssetImage(AppAssets.splash)),
       ),
     );
   }

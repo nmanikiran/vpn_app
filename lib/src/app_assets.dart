@@ -1,4 +1,4 @@
-class Assets {
+class AppAssets {
 
   static final splash = "assets/splash.png";
   // slide images

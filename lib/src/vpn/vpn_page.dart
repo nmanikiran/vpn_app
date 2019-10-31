@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vpn_app/src/Assets.dart';
+import 'package:vpn_app/src/app_assets.dart';
 import 'package:vpn_app/src/vpn/vpn_server_dropdown.dart';
 import 'package:vpn_app/src/vpn/vpn_status_widget.dart';
 
@@ -48,7 +48,7 @@ class _VpnPageState extends State<VpnPage> {
                   SizedBox(
                     height: 20.0,
                   ),
-                  Image.asset(isConnected ? Assets.online : Assets.offline),
+                  Image.asset(isConnected ? AppAssets.online : AppAssets.offline),
                   SizedBox(
                     height: 20.0,
                   ),
@@ -60,7 +60,7 @@ class _VpnPageState extends State<VpnPage> {
                         side: isConnected
                             ? BorderSide(color: Colors.black)
                             : BorderSide(color: Colors.transparent)),
-                    color: isConnected ? Colors.white : Colors.blueAccent,
+                    color: isConnected ? Colors.white : Theme.of(context).primaryColor,
                     textColor: isConnected ? Colors.black : Colors.white,
                     onPressed: () => {onConnect()},
                     child: Text(buttonText.toUpperCase()),

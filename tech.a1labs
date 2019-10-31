@@ -15,229 +15,43 @@ Flutter SDK:
 HTTP_PROXY: undefined
 NO_PROXY: undefined
 
-Sun Oct 20 2019 [20:02:03 GMT+0530 (India Standard Time)] Log file started
-[8:02:03 PM] [FlutterDaemon] [Info] Spawning C:\src\flutter\bin\flutter.bat with args ["daemon"]
-[8:02:03 PM] [FlutterDaemon] [Info] ..  in C:\src\flutter
-[8:02:04 PM] [FlutterDaemon] [Info]     PID: 4508
-[8:02:04 PM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
-[8:02:58 PM] [FlutterDaemon] [Info] <== Starting device daemon...
-[8:02:59 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.5.3","pid":9200}}]
-[8:02:59 PM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
-[8:03:05 PM] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"Pixel_3_XL_API_27","name":"Pixel_3_XL_API_27","category":"mobile","platformType":"android"}]}]
-[8:03:05 PM] [FlutterDaemon] [Info] <== [{"id":"2"}]
-[8:03:13 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"Android SDK built for x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_3_XL_API_27"}}]
-[8:03:13 PM] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
-[8:03:15 PM] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["ios","android"]}}]
-[9:17:42 PM] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
-[9:17:42 PM] [FlutterDaemon] [Info] <== [{"id":"4","result":{"platforms":["ios","android"]}}]
-[9:17:42 PM] [General] [Warn] Did not find session b1377f0b-0088-4b66-8305-7fb5761d134f to handle dart.launching. There were 0 sessions:
-[9:17:42 PM] [General] [Warn] Event will be queued and processed when the session start event fires
-[9:34:14 PM] [FlutterRun] [Error] 
-Compiler message:
-[9:34:14 PM] [FlutterRun] [Error] lib/main.dart:12:36: Error: The argument type 'bool' can't be assigned to the parameter type 'ThemeData'.
- - 'ThemeData' is from 'package:flutter/src/material/theme_data.dart' ('/C:/src/flutter/packages/flutter/lib/src/material/theme_data.dart').
-Try changing the type of the parameter, or casting the argument to 'ThemeData'.
-      builder: (_) => ThemeChanger(false),
-                                   ^
-[9:34:14 PM] [FlutterRun] [Error] lib/src/vpn/vpn_page.dart:43:44: Error: The method 'toggleTheme' isn't defined for the class 'ThemeChanger'.
- - 'ThemeChanger' is from 'package:vpn_app/src/theme_provider.dart' ('lib/src/theme_provider.dart').
-Try correcting the name to the name of an existing method, or defining a method named 'toggleTheme'.
-                onTap: () => _themeChanger.toggleTheme(),
-                                           ^^^^^^^^^^^
-[9:34:15 PM] [FlutterRun] [Error] 
-Compiler message:
-[9:34:15 PM] [FlutterRun] [Error] 
-lib/main.dart:12:36: Error: The argument type 'bool' can't be assigned to the parameter type 'ThemeData'.
-[9:34:15 PM] [FlutterRun] [Error]  - 'ThemeData' is from 'package:flutter/src/material/theme_data.dart' ('/C:/src/flutter/packages/flutter/lib/src/material/theme_data.dart').
-Try changing the type of the parameter, or casting the argument to 'ThemeData'.
-      builder: (_) => ThemeChanger(false),
-                                   ^
-[9:34:16 PM] [FlutterRun] [Error] lib/src/vpn/vpn_page.dart:43:44: Error: The method 'toggleTheme' isn't defined for the class 'ThemeChanger'.
- - 'ThemeChanger' is from 'package:vpn_app/src/theme_provider.dart' ('lib/src/theme_provider.dart').
-Try correcting the name to the name of an existing method, or defining a method named 'toggleTheme'.
-                onTap: () => _themeChanger.toggleTheme(),
-                                           ^^^^^^^^^^^
-[9:35:07 PM] [FlutterRun] [Error] 
-Compiler message:
-[9:35:07 PM] [FlutterRun] [Error] lib/src/vpn/vpn_page.dart:43:44: Error: The method 'toggleTheme' isn't defined for the class 'ThemeChanger'.
- - 'ThemeChanger' is from 'package:vpn_app/src/theme_provider.dart' ('lib/src/theme_provider.dart').
-Try correcting the name to the name of an existing method, or defining a method named 'toggleTheme'.
-                onTap: () => _themeChanger.toggleTheme(),
-[9:35:07 PM] [FlutterRun] [Error]                                            ^^^^^^^^^^^
-[9:35:08 PM] [FlutterRun] [Error] 
-Compiler message:
-[9:35:08 PM] [FlutterRun] [Error] lib/src/vpn/vpn_page.dart:43:44: Error: The method 'toggleTheme' isn't defined for the class 'ThemeChanger'.
- - 'ThemeChanger' is from 'package:vpn_app/src/theme_provider.dart' ('lib/src/theme_provider.dart').
-Try correcting the name to the name of an existing method, or defining a method named 'toggleTheme'.
-                onTap: () => _themeChanger.toggleTheme(),
-                                           ^^^^^^^^^^^
-[9:56:46 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
-[9:59:40 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
-[10:00:38 PM] [General] [Error] Error during `edit.format`: source contains syntax errors.
-[10:01:06 PM] [General] [Error] Error during `edit.format`: source contains syntax errors.
-[10:02:52 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
-[10:02:53 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
-[10:03:17 PM] [FlutterRun] [Error] 
-Compiler message:
-[10:03:17 PM] [FlutterRun] [Error] lib/src/splash_screen.dart:27:57: Error: Getter not found: 'splash'.
-            fit: BoxFit.cover, image: AssetImage(Assets.splash)),
-                                                        ^^^^^^
-[10:03:20 PM] [FlutterRun] [Error] 
-Compiler message:
-[10:03:20 PM] [FlutterRun] [Error] lib/src/splash_screen.dart:27:57: Error: Getter not found: 'splash'.
-            fit: BoxFit.cover, image: AssetImage(Assets.splash)),
-                                                        ^^^^^^
-[10:03:42 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
-[10:03:55 PM] [FlutterRun] [Error] Error -32000 received from application: Service protocol could not handle or find a handler for the requested method.
-[10:04:23 PM] [FlutterDaemon] [Info] ==> [{"id":"5","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
-[10:04:23 PM] [FlutterDaemon] [Info] <== [{"id":"5","result":{"platforms":["ios","android"]}}]
-[10:04:23 PM] [General] [Warn] Did not find session 6679cf76-2d17-4730-bc2e-929780a76151 to handle dart.launching. There were 0 sessions:
-[10:04:23 PM] [General] [Warn] Event will be queued and processed when the session start event fires
-[10:14:46 PM] [FlutterDaemon] [Info] ==> [{"id":"6","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
-[10:14:46 PM] [FlutterDaemon] [Info] <== [{"id":"6","result":{"platforms":["ios","android"]}}]
-[10:14:46 PM] [General] [Warn] Did not find session 354a3e34-c4b6-4dae-a316-1794f7746665 to handle dart.launching. There were 0 sessions:
-[10:14:46 PM] [General] [Warn] Event will be queued and processed when the session start event fires
-[10:27:32 PM] [FlutterDaemon] [Info] ==> [{"id":"7","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
-[10:27:32 PM] [FlutterDaemon] [Info] <== [{"id":"7","result":{"platforms":["ios","android"]}}]
-[10:27:32 PM] [General] [Warn] Did not find session 540962cb-c476-4eea-8ef4-7218b04276a9 to handle dart.launching. There were 0 sessions:
-[10:27:32 PM] [General] [Warn] Event will be queued and processed when the session start event fires
-[10:28:34 PM] [FlutterRun] [Error] 
-[10:28:34 PM] [FlutterRun] [Error] FAILURE: Build failed with an exception.
-[10:28:34 PM] [FlutterRun] [Error] 
-
-* What went wrong:
-[10:28:34 PM] [FlutterRun] [Error] Execution failed for task ':app:processDebugResources'.
-[10:28:34 PM] [FlutterRun] [Error] > Android resource linking failed
-[10:28:34 PM] [FlutterRun] [Error] 
-[10:28:34 PM] [FlutterRun] [Error]   Output:  D:\projects\flutter\vpn_app\android\app\src\main\res\drawable\launch_background.xml:8: error: resource mipmap/splash.png (aka com.example.vpn_app:mipmap/splash.png) not found.
-[10:28:34 PM] [FlutterRun] [Error] 
-  error: failed linking file resources.
-[10:28:34 PM] [FlutterRun] [Error] 
-[10:28:34 PM] [FlutterRun] [Error]   Command: C:\Users\nmani\.gradle\caches\transforms-1\files-1.1\aapt2-3.2.1-4818971-windows.jar\77d370689a4e9c2edb3326cb30d6ac1e\aapt2-3.2.1-4818971-windows\aapt2.exe link -I\
-[10:28:34 PM] [FlutterRun] [Error]           C:\Users\nmani\AppData\Local\Android\Sdk\platforms\android-28\android.jar\
-[10:28:34 PM] [FlutterRun] [Error]           --manifest\
-          D:\projects\flutter\vpn_app\build\app\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml\
-[10:28:34 PM] [FlutterRun] [Error]           -o\
-[10:28:34 PM] [FlutterRun] [Error] 
-[10:28:34 PM] [FlutterRun] [Error]           D:\projects\flutter\vpn_app\build\app\intermediates\processed_res\debug\processDebugResources\out\resources-debug.ap_\
-[10:28:34 PM] [FlutterRun] [Error] 
-[10:28:34 PM] [FlutterRun] [Error]           -R\
-[10:28:34 PM] [FlutterRun] [Error] 
-[10:28:34 PM] [FlutterRun] [Error]           @D:\projects\flutter\vpn_app\build\app\intermediates\incremental\processDebugResources\resources-list-for-resources-debug.ap_.txt\
-[10:28:34 PM] [FlutterRun] [Error] 
-          --auto-add-overlay\
-          --java\
-[10:28:34 PM] [FlutterRun] [Error]           D:\projects\flutter\vpn_app\build\app\generated\not_namespaced_r_class_sources\debug\processDebugResources\r\
-          --custom-package\
-[10:28:34 PM] [FlutterRun] [Error]           com.example.vpn_app\
-[10:28:34 PM] [FlutterRun] [Error] 
-[10:28:34 PM] [FlutterRun] [Error]           -0\
-          apk\
-[10:28:34 PM] [FlutterRun] [Error]           --no-version-vectors
-[10:28:34 PM] [FlutterRun] [Error]   Daemon:  AAPT2 aapt2-3.2.1-4818971-windows Daemon #0
-[10:28:34 PM] [FlutterRun] [Error]   Output:  D:\projects\flutter\vpn_app\android\app\src\main\res\drawable\launch_background.xml:8: AAPT: error: resource mipmap/splash.png (aka com.example.vpn_app:mipmap/splash.png) not found.
-[10:28:34 PM] [FlutterRun] [Error]   error: failed linking file resources.
-[10:28:34 PM] [FlutterRun] [Error] 
-[10:28:34 PM] [FlutterRun] [Error]   Command: C:\Users\nmani\.gradle\caches\transforms-1\files-1.1\aapt2-3.2.1-4818971-windows.jar\77d370689a4e9c2edb3326cb30d6ac1e\aapt2-3.2.1-4818971-windows\aapt2.exe link -I\
-          C:\Users\nmani\AppData\Local\Android\Sdk\platforms\android-28\android.jar\
-[10:28:34 PM] [FlutterRun] [Error]           --manifest\
-[10:28:34 PM] [FlutterRun] [Error]           D:\projects\flutter\vpn_app\build\app\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml\
-[10:28:34 PM] [FlutterRun] [Error]           -o\
-[10:28:34 PM] [FlutterRun] [Error] 
-[10:28:34 PM] [FlutterRun] [Error]           D:\projects\flutter\vpn_app\build\app\intermediates\processed_res\debug\processDebugResources\out\resources-debug.ap_\
-[10:28:34 PM] [FlutterRun] [Error] 
-          -R\
-          @D:\projects\flutter\vpn_app\build\app\intermediates\incremental\processDebugResources\resources-list-for-resources-debug.ap_.txt\
-[10:28:34 PM] [FlutterRun] [Error] 
-          --auto-add-overlay\
-[10:28:34 PM] [FlutterRun] [Error]           --java\
-          D:\projects\flutter\vpn_app\build\app\generated\not_namespaced_r_class_sources\debug\processDebugResources\r\
-[10:28:34 PM] [FlutterRun] [Error]           --custom-package\
-[10:28:34 PM] [FlutterRun] [Error]           com.example.vpn_app\
-          -0\
-[10:28:34 PM] [FlutterRun] [Error]           apk\
-[10:28:34 PM] [FlutterRun] [Error]           --no-version-vectors
-[10:28:34 PM] [FlutterRun] [Error]   Daemon:  AAPT2 aapt2-3.2.1-4818971-windows Daemon #0
-
-* Try:
-[10:28:34 PM] [FlutterRun] [Error] Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-[10:28:34 PM] [FlutterRun] [Error] * Get more help at https://help.gradle.org
-[10:28:34 PM] [FlutterRun] [Error] 
-BUILD FAILED in 49s
-[10:28:35 PM] [FlutterRun] [Error] *******************************************************************************************
-The Gradle failure may have been because of AndroidX incompatibilities in this Flutter app.
-[10:28:35 PM] [FlutterRun] [Error] See https://goo.gl/CP92wY for more information on the problem and how to fix it.
-*******************************************************************************************
-[10:30:06 PM] [FlutterDaemon] [Info] ==> [{"id":"8","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
-[10:30:06 PM] [FlutterDaemon] [Info] <== [{"id":"8","result":{"platforms":["ios","android"]}}]
-[10:30:07 PM] [General] [Warn] Did not find session 26bc0333-1f0e-4f0f-90be-613f266d0197 to handle dart.launching. There were 0 sessions:
-[10:30:07 PM] [General] [Warn] Event will be queued and processed when the session start event fires
-[10:30:22 PM] [FlutterRun] [Error] 
-[10:30:22 PM] [FlutterRun] [Error] FAILURE: Build failed with an exception.
-[10:30:22 PM] [FlutterRun] [Error] * What went wrong:
-[10:30:22 PM] [FlutterRun] [Error] 
-Execution failed for task ':app:processDebugResources'.
-> Android resource linking failed
-[10:30:22 PM] [FlutterRun] [Error]   Output:  D:\projects\flutter\vpn_app\android\app\src\main\res\drawable\launch_background.xml:4: error: resource android:color/orange not found.
-[10:30:22 PM] [FlutterRun] [Error] 
-[10:30:22 PM] [FlutterRun] [Error]   error: failed linking file resources.
-[10:30:22 PM] [FlutterRun] [Error] 
-[10:30:22 PM] [FlutterRun] [Error] 
-[10:30:22 PM] [FlutterRun] [Error]   Command: C:\Users\nmani\.gradle\caches\transforms-1\files-1.1\aapt2-3.2.1-4818971-windows.jar\77d370689a4e9c2edb3326cb30d6ac1e\aapt2-3.2.1-4818971-windows\aapt2.exe link -I\
-[10:30:22 PM] [FlutterRun] [Error] 
-[10:30:22 PM] [FlutterRun] [Error]           C:\Users\nmani\AppData\Local\Android\Sdk\platforms\android-28\android.jar\
-[10:30:22 PM] [FlutterRun] [Error]           --manifest\
-[10:30:22 PM] [FlutterRun] [Error] 
-[10:30:22 PM] [FlutterRun] [Error]           D:\projects\flutter\vpn_app\build\app\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml\
-[10:30:22 PM] [FlutterRun] [Error] 
-          -o\
-          D:\projects\flutter\vpn_app\build\app\intermediates\processed_res\debug\processDebugResources\out\resources-debug.ap_\
-[10:30:22 PM] [FlutterRun] [Error] 
-          -R\
-[10:30:22 PM] [FlutterRun] [Error]           @D:\projects\flutter\vpn_app\build\app\intermediates\incremental\processDebugResources\resources-list-for-resources-debug.ap_.txt\
-[10:30:22 PM] [FlutterRun] [Error]           --auto-add-overlay\
-          --java\
-[10:30:22 PM] [FlutterRun] [Error]           D:\projects\flutter\vpn_app\build\app\generated\not_namespaced_r_class_sources\debug\processDebugResources\r\
-[10:30:22 PM] [FlutterRun] [Error]           --custom-package\
-[10:30:22 PM] [FlutterRun] [Error] 
-[10:30:22 PM] [FlutterRun] [Error]           com.example.vpn_app\
-[10:30:22 PM] [FlutterRun] [Error] 
-          -0\
-[10:30:22 PM] [FlutterRun] [Error]           apk\
-[10:30:22 PM] [FlutterRun] [Error]           --no-version-vectors
-  Daemon:  AAPT2 aapt2-3.2.1-4818971-windows Daemon #0
-[10:30:22 PM] [FlutterRun] [Error]   Output:  D:\projects\flutter\vpn_app\android\app\src\main\res\drawable\launch_background.xml:4: AAPT: error: resource android:color/orange not found.
-[10:30:22 PM] [FlutterRun] [Error]   error: failed linking file resources.
-[10:30:22 PM] [FlutterRun] [Error]   Command: C:\Users\nmani\.gradle\caches\transforms-1\files-1.1\aapt2-3.2.1-4818971-windows.jar\77d370689a4e9c2edb3326cb30d6ac1e\aapt2-3.2.1-4818971-windows\aapt2.exe link -I\
-          C:\Users\nmani\AppData\Local\Android\Sdk\platforms\android-28\android.jar\
-[10:30:22 PM] [FlutterRun] [Error]           --manifest\
-          D:\projects\flutter\vpn_app\build\app\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml\
-          -o\
-[10:30:22 PM] [FlutterRun] [Error] 
-          D:\projects\flutter\vpn_app\build\app\intermediates\processed_res\debug\processDebugResources\out\resources-debug.ap_\
-[10:30:22 PM] [FlutterRun] [Error]           -R\
-          @D:\projects\flutter\vpn_app\build\app\intermediates\incremental\processDebugResources\resources-list-for-resources-debug.ap_.txt\
-[10:30:22 PM] [FlutterRun] [Error]           --auto-add-overlay\
-[10:30:22 PM] [FlutterRun] [Error]           --java\
-          D:\projects\flutter\vpn_app\build\app\generated\not_namespaced_r_class_sources\debug\processDebugResources\r\
-[10:30:22 PM] [FlutterRun] [Error]           --custom-package\
-          com.example.vpn_app\
-[10:30:22 PM] [FlutterRun] [Error]           -0\
-          apk\
-          --no-version-vectors
-[10:30:22 PM] [FlutterRun] [Error] 
-  Daemon:  AAPT2 aapt2-3.2.1-4818971-windows Daemon #0
-[10:30:22 PM] [FlutterRun] [Error] * Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-[10:30:22 PM] [FlutterRun] [Error] 
-
-* Get more help at https://help.gradle.org
-[10:30:22 PM] [FlutterRun] [Error] BUILD FAILED in 6s
-[10:30:22 PM] [FlutterRun] [Error] *******************************************************************************************
-The Gradle failure may have been because of AndroidX incompatibilities in this Flutter app.
-[10:30:22 PM] [FlutterRun] [Error] See https://goo.gl/CP92wY for more information on the problem and how to fix it.
-*******************************************************************************************
-[10:30:36 PM] [FlutterDaemon] [Info] ==> [{"id":"9","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
-[10:30:36 PM] [FlutterDaemon] [Info] <== [{"id":"9","result":{"platforms":["ios","android"]}}]
-[10:30:37 PM] [General] [Warn] Did not find session 2cc0ed30-b53d-4e76-897f-7c49ef7a10f9 to handle dart.launching. There were 0 sessions:
-[10:30:37 PM] [General] [Warn] Event will be queued and processed when the session start event fires
+Thu Oct 31 2019 [20:24:27 GMT+0530 (India Standard Time)] Log file started
+[8:24:27 PM] [FlutterDaemon] [Info] Spawning C:\src\flutter\bin\flutter.bat with args ["daemon"]
+[8:24:27 PM] [FlutterDaemon] [Info] ..  in C:\src\flutter
+[8:24:27 PM] [FlutterDaemon] [Info]     PID: 10996
+[8:24:27 PM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[8:25:20 PM] [FlutterDaemon] [Info] <== Starting device daemon...
+[8:25:20 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.5.3","pid":12992}}]
+[8:25:20 PM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[8:25:26 PM] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"Pixel_3_XL_API_27","name":"Pixel_3_XL_API_27","category":"mobile","platformType":"android"}]}]
+[8:25:26 PM] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[9:33:54 PM] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
+[9:33:54 PM] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["ios","android"]}}]
+[9:33:54 PM] [FlutterDaemon] [Info] ==> [{"id":"4","method":"emulator.getEmulators"}]
+[9:33:54 PM] [FlutterDaemon] [Info] <== [{"id":"4","result":[{"id":"Pixel_3_XL_API_27","name":"Pixel_3_XL_API_27","category":"mobile","platformType":"android"}]}]
+[9:33:55 PM] [FlutterDaemon] [Info] ==> [{"id":"5","method":"emulator.launch","params":{"emulatorId":"Pixel_3_XL_API_27"}}]
+[9:33:58 PM] [FlutterDaemon] [Info] <== [{"id":"5"}]
+[9:34:58 PM] [General] [Warn] Unable to launch due to no active device
+[9:35:10 PM] [FlutterDaemon] [Info] ==> [{"id":"6","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
+[9:35:10 PM] [FlutterDaemon] [Info] <== [{"id":"6","result":{"platforms":["ios","android"]}}]
+[9:35:10 PM] [FlutterDaemon] [Info] ==> [{"id":"7","method":"emulator.getEmulators"}]
+[9:35:11 PM] [FlutterDaemon] [Info] <== [{"id":"7","result":[{"id":"Pixel_3_XL_API_27","name":"Pixel_3_XL_API_27","category":"mobile","platformType":"android"}]}]
+[9:35:12 PM] [FlutterDaemon] [Info] ==> [{"id":"8","method":"emulator.launch","params":{"emulatorId":"Pixel_3_XL_API_27"}}]
+[9:35:12 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"Android SDK built for x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_3_XL_API_27"}}]
+[9:35:12 PM] [FlutterDaemon] [Info] ==> [{"id":"9","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
+[9:35:12 PM] [FlutterDaemon] [Info] <== [{"id":"9","result":{"platforms":["ios","android"]}}]
+[9:35:15 PM] [FlutterDaemon] [Info] <== [{"id":"8"}]
+[9:35:17 PM] [General] [Warn] Did not find session a0d0fef7-06e4-4a96-9006-3829d68ccbd1 to handle dart.launching. There were 0 sessions:
+[9:35:17 PM] [General] [Warn] Event will be queued and processed when the session start event fires
+[9:44:14 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
+[9:44:18 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
+[9:44:18 PM] [FlutterRun] [Error] 
+[9:44:20 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
+[9:44:55 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
+[9:44:58 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
+[9:45:05 PM] [FlutterRun] [Error] Error -32000 received from application: Service protocol could not handle or find a handler for the requested method.
+[9:45:05 PM] [FlutterRun] [Error] 
+[9:45:20 PM] [FlutterDaemon] [Info] ==> [{"id":"10","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
+[9:45:20 PM] [FlutterDaemon] [Info] <== [{"id":"10","result":{"platforms":["ios","android"]}}]
+[9:45:20 PM] [General] [Warn] Did not find session 73fec085-8081-4d89-a1e8-19ba1a44dab8 to handle dart.launching. There were 0 sessions:
+[9:45:20 PM] [General] [Warn] Event will be queued and processed when the session start event fires
